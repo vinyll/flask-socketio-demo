@@ -29,7 +29,7 @@ class DefaultNamespace(BaseNamespace, RoomsMixin, BroadcastMixin):
 
 app = Flask(__name__)
 
-@app.route("/socket.io/<path:path>")
+@app.route("/socket.io/<path:rest>")
 def run_socketio(path):
     socketio_manage(request.environ, {'/default': DefaultNamespace})
     return ''
