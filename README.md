@@ -1,6 +1,6 @@
 # Socketio with Flask demo and tutorial
 
-Technical details at [http://vinyll.particul.es/socketio-with-gevent-using-flask/](http://vinyll.particul.es/socketio-with-gevent-using-flask/)
+Technical details at [http://vinyll.scopyleft.fr/socketio-with-gevent-using-flask/](http://vinyll.scopyleft.fr/socketio-with-gevent-using-flask/)
 
 This project is a demo of how to use socketio with Python/Flash.
 It aims to remain ultra-basic as it is a demo/tutorial and not for production purposes.
